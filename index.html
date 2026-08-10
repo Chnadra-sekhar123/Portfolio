@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chandra Sekhar Gunda — Software Developer</title>
+<meta name="description" content="Portfolio of Chandra Sekhar Gunda — Software Developer, Data Analyst, and Computer Science undergraduate.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<button class="nav-trigger" id="navTrigger" aria-label="Open menu">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+</button>
+<div class="sidebar-backdrop" id="backdrop"></div>
+
+<div class="shell">
+
+  <!-- ============ SIDEBAR ============ -->
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">
+      <div class="brand-mark">CS</div>
+      <div class="brand-text">
+        <div class="name">Chandra Sekhar</div>
+        <div class="tag">Gunda</div>
+      </div>
+    </div>
+
+    <nav class="nav" id="nav">
+      <a href="#home" class="nav-link"><span class="dot"></span>Home</a>
+      <a href="#about" class="nav-link"><span class="dot"></span>About</a>
+      <a href="#skills" class="nav-link"><span class="dot"></span>Skills</a>
+      <a href="#experience" class="nav-link"><span class="dot"></span>Experience</a>
+      <a href="#projects" class="nav-link"><span class="dot"></span>Projects</a>
+      <a href="#certifications" class="nav-link"><span class="dot"></span>Certifications</a>
+      <a href="#resume" class="nav-link"><span class="dot"></span>Resume</a>
+      <a href="#contact" class="nav-link"><span class="dot"></span>Contact</a>
+    </nav>
+
+    <div class="sidebar-footer">
+      <div class="social-row">
+        <a class="icon-btn" href="https://github.com/Chnadra-sekhar123" target="_blank" rel="noopener" aria-label="GitHub profile">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.09 3.29 9.4 7.86 10.93.58.1.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.52-1.34-1.28-1.7-1.28-1.7-1.04-.72.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.03 1.78 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.6.24 2.77.12 3.06.74.8 1.18 1.83 1.18 3.09 0 4.43-2.7 5.4-5.28 5.69.42.36.78 1.08.78 2.18 0 1.57-.01 2.84-.01 3.23 0 .31.2.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/></svg>
+        </a>
+        <a class="icon-btn" href="https://www.linkedin.com/in/chandra-sekhar-065399277" target="_blank" rel="noopener" aria-label="LinkedIn profile">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.59 0 4.25 2.36 4.25 5.44v6.3ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
+        </a>
+        <a class="icon-btn" href="mailto:gundachandra49@gmail.com" aria-label="Send email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16v12H4z"/><path d="m4 7 8 6 8-6"/></svg>
+        </a>
+      </div>
+      <button class="theme-toggle" id="themeToggle">
+        <span id="themeLabel">Dark mode</span>
+        <svg id="themeIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"/></svg>
+      </button>
+    </div>
+  </aside>
+
+  <!-- ============ MAIN ============ -->
+  <main class="main">
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-kicker"><span class="blink"></span>AVAILABLE FOR SDE / DATA ROLES</div>
+      <h1>Chandra Sekhar <span>Gunda</span></h1>
+      <div class="role-line"><span class="prompt">&gt;</span><span id="roleText">Software Developer</span><span class="cursor"></span></div>
+      <p class="hero-desc">Final-year Computer Science undergraduate who builds full-stack and mobile apps with PHP, Flutter, Python and MySQL — and turns messy datasets into models and dashboards that make sense. I like shipping things that actually get used.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">
+          View Projects
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#contact" class="btn btn-ghost">Contact Me</a>
+      </div>
+      <div class="status-bar"><span class="pulse"></span>B.Tech CSE, Saveetha University · CGPA 8.0/10 · Graduating 2026</div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="eyebrow">About</div>
+      <h2 class="section-title reveal">Bio &amp; background</h2>
+      <p class="section-sub reveal">A quick summary of who I am and where I've studied.</p>
+
+      <div class="about-grid">
+        <div class="reveal">
+          <p>I'm a motivated Computer Science undergraduate with hands-on experience building full-stack and mobile applications using <strong>PHP, Flutter, Python and MySQL</strong>. I have a strong foundation in data structures, algorithms, object-oriented programming and database management, with additional exposure to machine learning and cybersecurity.</p>
+          <p>I'm currently looking for a <strong>Software Development Engineer</strong> role where I can design, build and deliver scalable, user-focused software — and I'm equally comfortable moving into data-focused work after interning as a Data Science Intern, cleaning data and building ML models and Power BI dashboards.</p>
+        </div>
+        <div class="reveal">
+          <div class="edu-list">
+            <div class="edu-item">
+              <div class="school">Saveetha University, Chennai</div>
+              <div class="degree">B.Tech in Computer Science · CGPA 8.0/10</div>
+              <div class="meta">Jun 2022 – May 2026</div>
+            </div>
+            <div class="edu-item">
+              <div class="school">Sri Chaitanya Junior College, Piduguralla</div>
+              <div class="degree">MPC (Class XII) · 70%</div>
+              <div class="meta">Jun 2020 – May 2022</div>
+            </div>
+            <div class="edu-item">
+              <div class="school">Narayana Public School, Piduguralla</div>
+              <div class="degree">Class X · 97.3%</div>
+              <div class="meta">Jun 2019 – May 2020</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="eyebrow">Skills</div>
+      <h2 class="section-title reveal">What I work with</h2>
+      <p class="section-sub reveal">Languages, tools and concepts I use day to day.</p>
+
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <h4>Languages</h4>
+          <div class="tag-row">
+            <span class="tag">C</span><span class="tag">C++</span><span class="tag">Java</span><span class="tag">Python</span><span class="tag">SQL</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h4>Web &amp; Mobile</h4>
+          <div class="tag-row">
+            <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">PHP</span><span class="tag">Flutter</span><span class="tag">REST APIs</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h4>Databases</h4>
+          <div class="tag-row"><span class="tag">MySQL</span></div>
+        </div>
+        <div class="skill-card reveal">
+          <h4>Tools &amp; Platforms</h4>
+          <div class="tag-row">
+            <span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">VS Code</span><span class="tag">Excel</span><span class="tag">Word</span><span class="tag">PowerPoint</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h4>Core CS Concepts</h4>
+          <div class="tag-row">
+            <span class="tag">DSA</span><span class="tag">OOP</span><span class="tag">DBMS</span><span class="tag">SDLC</span><span class="tag">ML Fundamentals</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h4>Data Analysis</h4>
+          <div class="tag-row">
+            <span class="tag">Pandas</span><span class="tag">Power BI</span><span class="tag">Data Cleaning</span><span class="tag">Data Visualisation</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+      <div class="eyebrow">Experience</div>
+      <h2 class="section-title reveal">Internship</h2>
+      <p class="section-sub reveal">Real-world data work before graduating.</p>
+
+      <div class="exp-card reveal">
+        <div class="exp-mark">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 7h18v13H3zM8 7V4h8v3M3 12h18"/></svg>
+        </div>
+        <div>
+          <div class="exp-head">
+            <div>
+              <h4>Data Science Intern</h4>
+              <span class="company">Gradtwin</span>
+            </div>
+            <span class="dates">Jan 2026 – Apr 2026</span>
+          </div>
+          <ul class="exp-list">
+            <li>Performed data cleaning and inspection on raw datasets using Python and Pandas, identifying and resolving missing values, duplicates and inconsistencies to improve data quality.</li>
+            <li>Trained and evaluated machine learning models on processed datasets to generate predictive insights.</li>
+            <li>Built interactive visualisations and dashboards in Power BI to represent trends and communicate findings to stakeholders.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="eyebrow">Projects</div>
+      <h2 class="section-title reveal">Things I've built</h2>
+      <p class="section-sub reveal">Each card links out to the code on GitHub.</p>
+
+      <div class="projects-grid">
+        <div class="project-card reveal">
+          <div class="project-top">
+            <h3>Smart Remote App</h3>
+            <span class="project-idx">Mobile</span>
+          </div>
+          <p>A cross-platform mobile app that lets users control multiple smart home appliances from one unified interface, with device configuration and manual input modules supporting a wide range of appliance brands, backed by a MySQL database for device data and user configs.</p>
+          <div class="tag-row">
+            <span class="tag">PHP</span><span class="tag">Flutter</span><span class="tag">MySQL</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Chnadra-sekhar123" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></svg>
+              Code
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-top">
+            <h3>Vehicle Health Prediction System</h3>
+            <span class="project-idx">ML</span>
+          </div>
+          <p>A predictive ML system that assesses vehicle health from engine performance, fuel consumption and battery usage data, using Autoencoder, Variational Autoencoder and LSTM models to catch anomalies in sensor time-series and flag issues before they become failures.</p>
+          <div class="tag-row">
+            <span class="tag">Python</span><span class="tag">AE / VAE</span><span class="tag">LSTM</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Chnadra-sekhar123" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></svg>
+              Code
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-top">
+            <h3>Smart Home Appliances App</h3>
+            <span class="project-idx">Mobile</span>
+          </div>
+          <p>A mobile app prototype for controlling smart home devices, with a clean core UI and a modular, intuitive navigation flow designed to make room for future feature expansion.</p>
+          <div class="tag-row">
+            <span class="tag">Flutter</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Chnadra-sekhar123" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></svg>
+              Code
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications">
+      <div class="eyebrow">Certifications</div>
+      <h2 class="section-title reveal">Courses &amp; certifications</h2>
+      <p class="section-sub reveal">Continuous learning outside the classroom.</p>
+
+      <div class="cert-grid">
+        <div class="cert-card reveal">
+          <div class="cert-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 2 7l10 5 10-5-10-5ZM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
+          <div><div class="cert-name">Data Structures in C</div><div class="cert-org">Great Learning</div></div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/></svg></div>
+          <div><div class="cert-name">Ethical Hacking</div><div class="cert-org">Great Learning</div></div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/></svg></div>
+          <div><div class="cert-name">Introduction to Information Security</div><div class="cert-org">Great Learning</div></div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a5 5 0 0 0-5 5v3H5a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2h-2V7a5 5 0 0 0-5-5Z"/></svg></div>
+          <div><div class="cert-name">Internet of Things</div><div class="cert-org">NPTEL</div></div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 12 2 2 4-4M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/></svg></div>
+          <div><div class="cert-name">Software Testing</div><div class="cert-org">NPTEL</div></div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/></svg></div>
+          <div><div class="cert-name">Ethical Hacking</div><div class="cert-org">NPTEL</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESUME -->
+    <section id="resume">
+      <div class="eyebrow">Resume</div>
+      <h2 class="section-title reveal">Download my resume</h2>
+      <p class="section-sub reveal">A full PDF copy with everything on this page, and more.</p>
+
+      <div class="resume-card reveal">
+        <div class="resume-left">
+          <div class="resume-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M9 15h6M9 11h6M9 19h4"/></svg></div>
+          <div>
+            <h4>Chandra_Sekhar_Resume.pdf</h4>
+            <p>Updated 2026 · PDF · 1 page</p>
+          </div>
+        </div>
+        <a href="Chandra_Sekhar_Resume.pdf" download class="btn btn-primary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0-4-4m4 4 4-4M4 21h16"/></svg>
+          Download Resume
+        </a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="eyebrow">Contact</div>
+      <h2 class="section-title reveal">Let's talk</h2>
+      <p class="section-sub reveal">Recruiter or hiring manager? Send your details below and it'll land straight in my inbox.</p>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <p>Whether it's a full-time SDE role, a data analyst opening, or just a question about one of my projects — I read every message and try to reply within a couple of days.</p>
+          <div class="contact-list">
+            <div class="contact-row">
+              <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16v12H4z"/><path d="m4 7 8 6 8-6"/></svg></span>
+              gundachandra49@gmail.com
+            </div>
+            <div class="contact-row">
+              <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg></span>
+              +91-7075614582
+            </div>
+            <div class="contact-row">
+              <span class="ic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.59 0 4.25 2.36 4.25 5.44v6.3ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg></span>
+              linkedin.com/in/chandra-sekhar-065399277
+            </div>
+            <div class="contact-row">
+              <span class="ic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.09 3.29 9.4 7.86 10.93.58.1.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.52-1.34-1.28-1.7-1.28-1.7-1.04-.72.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.03 1.78 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.6.24 2.77.12 3.06.74.8 1.18 1.83 1.18 3.09 0 4.43-2.7 5.4-5.28 5.69.42.36.78 1.08.78 2.18 0 1.57-.01 2.84-.01 3.23 0 .31.2.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/></svg></span>
+              github.com/Chnadra-sekhar123
+            </div>
+          </div>
+        </div>
+
+        <div class="form-card reveal">
+          <!--
+            IMPORTANT: replace YOUR_FORM_ID below with your real Formspree endpoint
+            (sign up free at https://formspree.io, create a form, copy the ID it gives you).
+            Until then this form will not actually deliver mail.
+          -->
+          <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" enctype="multipart/form-data">
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required placeholder="Your full name">
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="you@example.com">
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required placeholder="Role, company, or what you'd like to ask..."></textarea>
+            </div>
+            <div class="field">
+              <label for="file">Attach a file (JD, offer, etc. — optional)</label>
+              <label class="file-drop" for="file">
+                <span id="fileDropLabel">Click to choose a file</span>
+                <input type="file" id="file" name="attachment">
+              </label>
+              <div class="file-name" id="fileName"></div>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">Submit</button>
+            <div class="form-msg" id="formMsg"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer">
+      <span>© 2026 Chandra Sekhar Gunda</span>
+      <span>Built with HTML, CSS &amp; JS</span>
+    </div>
+
+  </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
